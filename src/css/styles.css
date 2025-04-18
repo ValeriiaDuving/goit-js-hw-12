@@ -87,6 +87,23 @@ border: 1px solid #4e75ff;
 background-color: #6C8CFF;
 }
 
+.btn-more {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 125px;
+  height: 40px;
+  background-color: #4e75ff;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border: none;
+  margin: 0 auto;
+  margin-top: 25px;
+  display: block;
+}
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -153,6 +170,10 @@ font-size: 16px;
 
 .loader.visible {
   display: block;
+}
+
+.loader.hidden {
+  display: none;
 }
 
 @keyframes spin {
